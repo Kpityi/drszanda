@@ -1,0 +1,104 @@
+.logo{
+  color: white;
+  margin: 1rem ;
+  font-weight: 400;
+  font-size: xx-large;
+}
+.nav-logo{
+  width: 2.5rem;
+  margin-right: .5rem;
+}
+.nav-link {
+ font-size: 1.2rem;
+ margin: 0.8rem;
+ border: none
+ }
+ .nav-link a:active{
+  border: none
+ }
+ .navbar-collapse {
+  justify-content: end;
+}
+
+
+
+footer{
+  /* min-width: 100%;
+  position: fixed;
+  bottom: 0; */
+  white-space: wrap;
+}
+footer .container-fluid{
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  padding: 1rem ;
+}
+footer a, a:hover, a:active{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+footer img{
+  max-width: 10rem;
+  margin-bottom: 1rem;
+}
+/* ********************************************************  C O O K I E   C S S  ************************************************************* */
+
+.cookie-container{
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: rgba(47, 54, 64, 0.9);
+  color: #f5f6fa;
+  padding: 0 0.6rem;
+  box-shadow: 0 -3px 6px hsla(0, 0%, 2%, 0.5);
+  transition: 500ms;
+}
+.cookie-container.active{
+ bottom: 0
+}
+.cookie-container p{
+  display: inline-block;
+  margin: 1.2rem 0 0 0.5rem;
+}
+.cookie-container a{
+  color: #f5f6fa;
+}
+.cookie-btn{
+  float: right;
+  background: rgb(252, 200, 0);
+  border: 0;
+  padding: .4rem ;
+  font-size: 1.1rem;
+  margin: 1.2rem 0.5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  }
+  .suti{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  /* ********************************************************  C O O K I E   C S S  ********************************************************** */
+  
+  @media screen and (max-width: 490px ) {
+    footer img{
+      display: block;
+      margin: 0 1rem 1rem auto;
+    }
+    main{
+      min-height: 150vw;
+    }
+  
+  }
+  @media screen and (max-width: 600px ){
+    main{
+      min-height:150vw;
+    }
+    .contact-item{
+      display: block;
+      min-width: 500px;
+      text-align: left;
+
+  }
