@@ -3,10 +3,13 @@
   margin: 1rem ;
   font-weight: 400;
   font-size: xx-large;
+  
 }
 .nav-logo{
-  width: 2.5rem;
+  max-width: 4vh;
+  min-width: 1vw;
   margin-right: .5rem;
+
 }
 .nav-link {
  font-size: 1.2rem;
@@ -18,21 +21,99 @@
  }
  .navbar-collapse {
   justify-content: end;
+  
+}
+.shadow-o{
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.7);
+}
+body{
+  background-color: rgb(226, 215, 215);
+  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+}
+main{
+  margin-top: 9rem;
+}
+h1{
+  text-align: center;
+  margin: 4rem 0 5rem 0rem;
+  font-weight: bolder;
+  text-shadow: .3rem .2rem .4rem rgba(0, 0, 0, 0.5);
+  
+}
+hr{
+  margin-top: 4rem;
+}
+#specialisation img{
+  width: 10rem;
+  margin: 1rem auto;
+ text-shadow:  1px 1px 2px black;
+}
+.card{
+  border-radius: .8rem;
+  border: 0.1rem solid rgba(0, 0, 0, .2);
+  max-height: 27rem;
+  overflow: scroll
+}
+.card:hover{
+  box-shadow: .4rem .5rem .4rem rgba(0, 0, 0, 0.5);
+  transition-duration: .5s;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+h5{
+  text-align: center;
+  font-weight: bolder;
+}
+h4{
+  text-align: center;
+  font-weight: bolder;
+  padding: 0 0 2rem 0;
+}
+.about-box p{
+  text-align: justify;
+}
+.about-img{
+  width: 95%;
+  margin: 0 1rem 2rem 1rem;
+}
+
+#contact p{
+  margin:0
+}
+.map{
+  margin: 2rem auto;
+  width: 50vw;
+  height: 40vw;
+  border: .5rem solid #f5f6fa;
+  border-radius: 1rem;
+  box-shadow: .4rem .5rem .4rem rgba(0, 0, 0, 0.5);
+}
+table{
+  display: block;
+  margin: 2rem 0 3rem 10rem;
+  font-size: larger;
+}
+td:nth-child(2){
+  text-align: center;
+}
+th{
+  text-align: center;
+ height: 3rem;
+}
+td{
+ padding: .1rem 1rem;
 }
 
 
-
 footer{
-  /* min-width: 100%;
-  position: fixed;
-  bottom: 0; */
   white-space: wrap;
 }
 footer .container-fluid{
   background-color: black;
   color: white;
   justify-content: space-between;
-  padding: 1rem ;
+  padding-top: 1em;
+  
 }
 footer a, a:hover, a:active{
   text-decoration: none;
@@ -41,7 +122,8 @@ footer a, a:hover, a:active{
 }
 footer img{
   max-width: 10rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5em;
+ 
 }
 /* ********************************************************  C O O K I E   C S S  ************************************************************* */
 
@@ -82,7 +164,7 @@ footer img{
   }
   /* ********************************************************  C O O K I E   C S S  ********************************************************** */
   
-  @media screen and (max-width: 490px ) {
+@media screen and (max-width: 490px ) {
     footer img{
       display: block;
       margin: 0 1rem 1rem auto;
@@ -91,14 +173,14 @@ footer img{
       min-height: 150vw;
     }
   
-  }
-  @media screen and (max-width: 600px ){
-    main{
+}
+@media screen and (max-width: 600px ){
+  main{
       min-height:150vw;
-    }
-    .contact-item{
+  }
+  .contact-item{
       display: block;
       min-width: 500px;
       text-align: left;
-
   }
+}
