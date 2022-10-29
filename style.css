@@ -75,6 +75,9 @@ h4{
 .about-img{
   width: 95%;
   margin: 0 1rem 2rem 1rem;
+  border: 0.1rem solid gray;
+  border-radius: 1rem;
+  box-shadow: .4rem .5rem .4rem rgba(0, 0, 0, 0.5);
 }
 
 #contact p{
