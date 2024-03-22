@@ -5,8 +5,7 @@
   font-size: xx-large;
 }
 .nav-logo {
-  max-width: 4vh;
-  min-width: 1vw;
+  height: 60px;
   margin-right: 0.5rem;
 }
 .nav-link {
